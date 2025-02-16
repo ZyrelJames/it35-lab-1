@@ -8,7 +8,7 @@ import {
       IonToolbar 
   } from '@ionic/react';
   
-  const About: React.FC = () => {
+  const Favorites: React.FC = () => {
     return (
       <IonPage>
         <IonHeader>
@@ -16,13 +16,23 @@ import {
             <IonButtons slot='start'>
               <IonMenuButton></IonMenuButton>
             </IonButtons>
-            <IonTitle>About</IonTitle>
+            <IonTitle>Favorites</IonTitle>
           </IonToolbar>
         </IonHeader>
         <IonContent fullscreen>
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              height: '100%',
+            }}
+          >
+            Favorites
+          </div>
         </IonContent>
       </IonPage>
     );
   };
   
-  export default About;
+  export default Favorites;
