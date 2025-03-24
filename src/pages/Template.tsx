@@ -7,7 +7,7 @@ import {
       IonTitle, 
       IonToolbar 
   } from '@ionic/react';
-  
+    
   const Template: React.FC = () => {
     return (
       <IonPage>
